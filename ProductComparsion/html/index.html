@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLY MOBILES</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <!----------------------------------------------HEADER-------------------------------------------->
+    <header id="header-top">
+      <nav class="header-details">
+        <div class="user-info width-90">
+              <a href="../html/home.html" title="homepage"><h1>ONLY MOBILES.</h1></a>
+              <div class="search-icon">
+                <form>
+                  <input type="text" class="search-field" placeholder="Search For Products ">
+                  <i class="fa-solid fa-magnifying-glass fa-l "></i>
+                </form>
+              </div>
+              <ul class="details-list"> 
+                <li class="wishlist">wishlist</li>
+                <li><i class="fa-regular fa-heart fa-xl wishlist"><div class="circle wish">0</div></i></li>
+                <li class="pipe"></li>
+                <li>cart</li>
+                <li><i class="fa-solid fa-bag-shopping fa-xl  carticon"><div class="circle cart">0</div></i></li>
+              </ul>
+        </div>
+      </nav>
+    </header>
+    <!-----------------------------------------------MAIN----------------------------------------------->
+    <main>
+      <div class="compare-popup "> <!--comaprepopup-->
+        <button type="button" class="compare-btn">COMPARE/DetailView</button>
+      </div>
+
+      <div class="filter-products width-90">
+        <aside class="filter-section"> 
+          <h5 class="home-mobiles"> MOBILES</h5>
+          <div class="filters">
+            <ul class="filter-list">
+              <li class="list">
+                <span class="filter-name">FILTERS</span>
+                <span class="clear">CLEAR ALL</span>
+              </li>
+              <li class="list">
+                <span class="filter-name">Price</span>
+                <a href="#" aria-label=" price slider"><i class="fa-solid fa-chevron-down "></i></a>
+                <div class="brand-list" id="dropdown1">
+                    <div class="rangeinput">
+                        <input type="range" class="rangeinput-min" min="0" max="775" value="500" step="25">
+                        <input type="range" class="rangeinput-max" min="800" max="1500" value="900" step="25" > 
+                        <input type="number" class='min-value' placeholder="min" value="500">
+                        <input type="number" class='max-value' placeholder="max" value="900">
+                    </div>
+                </div>
+              </li>
+              <li class="list">
+                <span class="filter-name">Battery Capacity</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li class="list">
+                <span class="filter-name">Screen Size</span>
+                <i class="fa-solid fa-chevron-down "></i>
+              </li>
+              <li class="list">
+                <span class="filter-name">RAM</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li class="list">
+                <span class="filter-name">Customer Ratings</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li class="list">
+                <span class="filter-name">Camera</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="products-section">
+          <div class="result-sortby">
+            <div class="result">Loading...</div>
+            <div class="sortby">
+              <ul class="sort-techniquies">
+                  <li class="sorting">SortBy</li>
+                  <li class="ratings"><a href="#" aria-label="refers to ratings ">Ratings</a></li>
+                  <li class="price"><a href="#" aria-label="refers to price ">Price low-High</a></li>
+                  <li class="newest"><a href="#" aria-label="refers to newest products">Newest First</a></li>  
+              </ul>
+            </div>
+          </div>
+          <div class="Products">
+
+          </div>
+        </div>
+      </div>
+
+      <!--comparsion table -->
+      <div class="comparsion-window width-90">
+        <table class="comparsion-table">
+          <tr class="headings">
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Display</th>
+            <th>Storage</th>
+            <th>Battery</th>
+            <th>Front-camera</th>
+            <th>Rare-camera</th>
+          </tr>
+        </table>
+        <div><i class="fa-solid fa-circle-xmark fa-xl"></i></div>
+      </div>
+    </main>
+    <!----------------------------------------------FOOTER---------------------------------------------->
+    <footer>
+      <div class="width-90">
+        <div class="around"><a href="#header-top" aria-label="refers to header"><i class="fa-solid fa-chevron-up"></i></a></div>
+
+        <div class="subscribe-medias">
+          <div class="subscribe">
+            <div class="moto">
+              <h4>LET'S STAY IN TOUCH</h4>
+              <span>Get updates on sales specials and more</span>
+            </div>
+            <div class="email">
+              <input class="address" type="email" placeholder="Email address">
+              <label class="support" for="Email">SUBSCRIBE</label>
+            </div>
+          </div>
+          <div class="medias">
+            <div class="moto">
+              <h4>FOLLOW ONLY MOBILES.</h4>
+              <span>We want to hear from you</span>     
+            </div>
+            <div class="socail">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="subscribe-medias">
+          <span class="copyright">Copyright © 2010 - 2023 onlymobile . All Rights Reserved</span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../javascript/newindex.js"></script>
+  </body>
+</html>
