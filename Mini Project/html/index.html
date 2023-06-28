@@ -1,0 +1,301 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Kraya</title>
+      <link rel="stylesheet" type="text/css" href="../css/index.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+      <header id="header-top">
+        <nav class="header-details">
+            <div class="user-info width-90">
+                  <div class="help"> <!--m-->
+                    <i class="fa-solid fa-phone fa-xl" ></i>
+                    <span>need help ?</span>
+                  </div>
+                  <ul class="details-list">
+                    <li class="wishlist">wishlist</li>
+                    <li><i class="fa-regular fa-heart fa-xl wishlist"><div class="circle wish">0</div></i></li>
+                    <li class="pipe"></li>
+                    <li>cart</li>
+                    <li><i class="fa-solid fa-bag-shopping fa-xl cart"><div class="circle cartvalue">0</div></i></li>
+                    <li class="pipe"></li>
+                    <li> <i class="fas fa-user fa-xl"></i></li>
+                    <li>jagadeesh</li>
+                    <li><i class="fas fa-chevron-down"></i></li>
+                  </ul>
+                  <ul class="sign-in"><!--m-->
+                    <li> <i class="fas fa-user fa-xl"></i></li>
+                    <li>Sign in</li>
+                    <li><i class="fa-regular fa-heart fa-xl wishlist"><div class="circle wish">0</div></i></li>
+                    <li><i class="fa-regular fa-cart-shopping fa-xl cart"><div class="circle cartvalue">0</div></i></li>
+                  </ul>
+            </div>
+        </nav>
+
+        <nav class="accesories-list width-90">
+            <div class="logo">
+              <h1>KRAYA.</h1>
+            </div>
+            <img src="../images/Kraya_logo.svg" alt="krayalogo" class="krayalogo"> <!--M-->
+            <div>
+              <ul class="details-list">
+                <li><a href="#phone" title="phone" aria-label="referes to mobile products">phone</a></li>
+                <li><a href="#telivison" title="telivison" aria-label="refers to telivison products">telivison</a></li>
+                <li><a href="#refrigirator" title="refrigirator" aria-label="referes to refrigirator products">refrigirator</a></li>
+                <li><a href="#laptop" title="laptop" aria-label="referes to laptop products">laptop</a></li>
+                <li><a href="#washing machine" title="washing machine" aria-label="referes to washingmachine products">washingmachine</a></li>
+                <li><a href="#downlaods" title="downloads" aria-label="referes to downloads">downloads</a></li>
+              </ul>
+            </div>
+            <div class="search-icon">
+              <form>
+                <input type="text" class="search-field" placeholder="Search For Products "><!--m-->
+              </form>
+              <i class="fa-solid fa-magnifying-glass fa-l "></i>
+            </div>
+        </nav>
+      </header>
+      
+      <main>
+
+        <div class="compare-popup "> <!--comaprepopup-->
+          <button type="button" class="compare-btn">COMPARE</button>
+        </div>
+
+
+        <div class="filter-products width-90">
+          <aside class="filter-section">  
+            <h5 class="home-mobiles">HOME / MOBILES</h5>
+            <div class="filters">
+              <ul class="filter-list">
+                <li class="list">
+                  <span class="filter-name">FILTERS</span>
+                  <span class="clear">CLEAR ALL</span>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Price</span>
+                  <a href="#" aria-label=" price slider"><i class="fa-solid fa-chevron-down "></i></a>
+                  <div class="brand-list" id="dropdown1">
+                      <div class="rangeinput">
+                          <input type="range" class="rangeinput-min" min="0" max="775" value="500" step="25">
+                          <input type="range" class="rangeinput-max" min="800" max="1500" value="900" step="25" > 
+                          <input type="number" class='min-value' placeholder="min" value="500">
+                          <input type="number" class='max-value' placeholder="max" value="900">
+                      </div>
+                  </div>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Brand</span>
+                  <a href="#" aria-label="filter by brand"><i class="fa-solid fa-chevron-down" id="brand"></i></a>
+                  <div class="brand-list" id="dropdown2">
+                    <form>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="apple" value="apple" >
+                          <label for="apple" class="apple">apple</label>
+                        </li>
+
+                        <li>
+                          <input type="checkbox"  id="sony" value="sony">
+                          <label for="sony">sony</label>
+                        </li>
+
+                        <li>
+                          <input type="checkbox" id="asus" value ="asus" >
+                          <label for="asus" class="apple">asus</label>
+                        </li>
+
+                        <li>
+                          <input type="checkbox" id="honor" value="honor" >
+                          <label for="honor">honor</label>
+                        </li>
+
+                        <li>
+                          <input type="checkbox" id="oneplus" value="oneplus">
+                          <label for="oneplus">oneplus</label>
+                        </li>
+
+                    </form>
+                  </div>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Battery Capacity</span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Screen Size</span>
+                  <i class="fa-solid fa-chevron-down "></i>
+                </li>
+                <li class="list">
+                  <span class="filter-name">RAM</span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Customer Ratings</span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Camera</span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Resolution Type</span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li class="list">
+                  <span class="filter-name">Operating System</span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </li>
+              </ul>
+            </div>
+          </aside>
+
+          <div class="products-section">
+            <div class="sortFilter"><!--m-->
+                <button class="filtering sorts" aria-label="open sort-by"><i class="fa-solid fa-bars-staggered fa-sm"></i>  SORT BY</button>
+                <button class="filtering filters" aria-label="open filters "><i class="fa-solid fa-filter fa-sm"></i>  FILTERS</button>
+                <ul class="sortby-filters">
+                  <li class="ratings"><a href="#">Ratings</a></li>
+                  <li class="price"><a href="#">Price low-High</a></li>
+                  <li class="newest"><a href="#">Newest First</a></li>  
+                </ul>
+                <div class="filterby-filters">
+                  <form>
+                      <input type="checkbox" id="apple" value="apple" class="brand-list-item">
+                      <label for="apple" class="apple">apple</label>
+
+                      <input type="checkbox"  id="sony" value="sony" class="brand-list-item">
+                      <label for="sony">sony</label><br><br>
+
+                      <input type="checkbox" id="asus" value ="asus" class="brand-list-item">
+                      <label for="asus" class="asus">asus</label>
+
+                      <input type="checkbox" id="honor" value="honor" class="brand-list-item">
+                      <label for="honor">honor</label><br>
+
+                      
+                  </form>
+                </div>
+            </div>
+            <div class="resultsBar"><!--m-->
+              <span class="resultsfound">no of results</span>
+            </div>
+
+            <div class="result-sortby">
+                <div class="result">Loading...</div>
+                <div class="sortby">
+                    <ul class="sort-techniquies">
+                        <li class="sorting">SortBy</li>
+                        <li class="ratings"><a href="#" aria-label="refers to ratings ">Ratings</a></li>
+                        <li class="price"><a href="#" aria-label="refers to price ">Price low-High</a></li>
+                        <li class="newest"><a href="#" aria-label="refers to newest products">Newest First</a></li>  
+                    </ul>
+                </div>
+            </div>
+            <div class="Products">
+            </div>
+          </div>
+        </div>
+        <div class="width-90">
+          <div class="comparsion">
+            <div class="comparsion-table">
+              <span>Name</span>
+              <span>Price</span>
+              <span>Display</span>
+              <span>storage</span>
+              <span>Battery</span>
+              <span>Front-camera</span>
+              <span>Rare-camera</span>
+            </div>
+       
+            <div><i class="fa-solid fa-circle-xmark fa-xl"></i></div>
+          </div>
+        </div>
+      </main>
+      <!--------------------------------------------------footer---------------------------------------------------->
+
+      <footer>
+        <div class="width-90">
+          <div class="around"><a href="#header-top" aria-label="refers to header"><i class="fa-solid fa-chevron-up"></i></a></div>
+          <div class="subscribe-medias">
+            <div class="subscribe">
+              <div class="moto">
+                <h4>LET'S STAY IN TOUCH</h4>
+                <span>Get updates on sales specials and more</span>
+              </div>
+              <div class="email">
+                <input class="address" type="email" placeholder="Email address">
+                <label class="support" for="Email">SUBSCRIBE</label>
+              </div>
+            </div>
+            <div class="medias">
+              <div class="moto">
+                <h4>FOLLOW KRAYA.</h4>
+                <span>We want to hear from you</span>     
+              </div>
+              <div class="socail">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe-medias">
+            <div class="policies">
+              <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">News</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="#">Payment</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Cancellation & Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">POLICY</a></Li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Intellectual Property</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Security</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">MAIL US</a></li>
+                <li><a href="#">17187 N. Laurel Park Dr., Ste. 110 Livonia, MI 48152 USA</a></li>
+              </ul>
+            </div>
+            <div class="contact-us">
+              <div class="contact-details">
+                <h3 class="contact-number">1800 123 4567</h3>
+                <span class="service-hour">Service hours: 09:00-21:00</span>
+                <button class="chat-support" aria-label="opens chat support">CHAT SUPPORT</button>
+              </div>
+              <div class="payment-methods">
+                <h6>PAYMENT METHODS</h6>
+                <ul class="payment-method-list">
+                    <li class="payment-method-logo"><img src="../images/MicrosoftTeams-image (10).png" alt="visa"></li>
+                    <li class="payment-method-logo"><img src="../images/MicrosoftTeams-image (11).png" alt="mastercard"></li>
+                    <li class="payment-method-logo"><img src="../images/MicrosoftTeams-image (12).png" alt="discover network"></li>
+                    <li class="payment-method-logo"><img src="../images/MicrosoftTeams-image (13).png" alt="american express"></li>
+                    <li class="payment-method-logo"><img src="../images/MicrosoftTeams-image (9).png  " alt="paypal"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe-medias">
+            <span class="copyright">Copyright © 2010 - 2018 commerce factory. All Rights Reserved</span>
+          </div>
+        </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="../javascript/newindex.js"></script>
+    </body>
+</html>
